@@ -24,5 +24,10 @@ public class testController {
     {
         return "Get Method is called";
     }
+    @GetMapping("/test")
+    public String getMethod2()
+    {
+        return "Get Method is called 2";
+    }
 
 }
